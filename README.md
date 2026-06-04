@@ -1,6 +1,6 @@
 # tiktok-bot-docs
 
-Static website for the [Twitch to TikTok Bot](https://github.com/Myth1call/tiktok-bot) project.
+Static website for the Twitch to TikTok Bot project.
 
 - [Home](https://myth1call.github.io/tiktok-bot-docs/)
 - [Terms of Service](https://myth1call.github.io/tiktok-bot-docs/terms/)
