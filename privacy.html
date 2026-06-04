@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Twitch to TikTok Bot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: June 2026</p>
+    <p>
+      This policy describes how the &quot;Twitch to TikTok Bot&quot; software handles information
+      when run locally by the account owner. There is no cloud backend operated by the developer
+      for end-user data storage.
+    </p>
+
+    <h2>1. Data processed locally</h2>
+    <ul>
+      <li>Twitch clip metadata (clip ID, title, broadcaster name, game, duration).</li>
+      <li>Video files stored on your computer (e.g. <code>storage/raw</code>, <code>storage/processed</code>).</li>
+      <li>Job status in a local SQLite database on your device.</li>
+    </ul>
+
+    <h2>2. Credentials and tokens</h2>
+    <ul>
+      <li>Twitch and TikTok API credentials are stored in the OS credential store (Windows Credential Manager / keyring), not in public repositories.</li>
+      <li>TikTok OAuth access and refresh tokens are stored locally on your machine after you authorize the app.</li>
+      <li>The developer does not receive or host your tokens on a remote server.</li>
+    </ul>
+
+    <h2>3. What we do not do</h2>
+    <ul>
+      <li>We do not sell personal data.</li>
+      <li>We do not run third-party advertising or analytics trackers in this project.</li>
+      <li>We do not collect data from other users&apos; TikTok or Twitch accounts beyond what you explicitly process via the APIs you authorize.</li>
+    </ul>
+
+    <h2>4. Sharing with third parties</h2>
+    <p>
+      When you use the software, data is sent only to services you configure:
+      Twitch (Helix API), TikTok (Content Posting API), and your local FFmpeg processing.
+      Those platforms have their own privacy policies.
+    </p>
+
+    <h2>5. Your choices</h2>
+    <ul>
+      <li>You can delete local video files and the SQLite database at any time.</li>
+      <li>You can revoke TikTok authorization in your TikTok account settings.</li>
+      <li>You can remove stored secrets from Windows Credential Manager.</li>
+    </ul>
+
+    <h2>6. Contact</h2>
+    <p>Questions about this policy: <a href="mailto:tolstiakov.d@gmail.com">tolstiakov.d@gmail.com</a></p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </main>
+</body>
+</html>
